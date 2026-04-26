@@ -1,0 +1,43 @@
+Linux Server Provisioning Report
+Generated: Sat Apr 25 21:30:00 EDT 2026
+Hostname: ubuntu-lab-vm
+Kernel: 6.5.0-ubuntu
+Admin User: sysadmin
+Default Lab Password: sysadmin
+
+Service Status:
+SSH: active
+XRDP: active
+fail2ban: active
+auditd: active
+
+Firewall Status:
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere
+3389/tcp                   ALLOW       Anywhere
+
+Swap Status:
+NAME      TYPE SIZE USED PRIO
+/swapfile file   1G   0B   -2
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        50G  9.1G   39G  19% /
+
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       820Mi       2.1Gi        20Mi       900Mi       2.7Gi
+
+Recent Login Activity:
+sysadmin pts/0 192.168.1.20 Sat Apr 25 21:20 still logged in
+
+User Login Summary:
+Username         Port     From             Latest
+root                                      **Never logged in**
+sysadmin         pts/0    192.168.1.20     Sat Apr 25 21:20:00 -0400 2026
+
+Automatic Security Updates:
+enabled
